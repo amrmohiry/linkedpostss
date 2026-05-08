@@ -24,7 +24,7 @@ export default function App() {
       path: "",
       element: <Layout />,
       children: [
-        // { path: "", element: <ProtectdRotes> <Home /> </ProtectdRotes>  },
+        { path: "", element: <ProtectdRotes> <Home /> </ProtectdRotes>  },
         { path: "home", element: <ProtectdRotes> <Home /> </ProtectdRotes>  },
 
         { path: "login", element:  <AuthRoute> <Login /> </AuthRoute>  },
